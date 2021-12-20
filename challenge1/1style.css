@@ -1,0 +1,23 @@
+.harrypotter {
+  background-image: "harrypotter.jpg";
+  text-align: center;
+  font-style: italic;
+}
+* {
+  background-color: rgb(8, 8, 90);
+  margin: 0%;
+}
+img {
+  width: 60%;
+  height: 60%;
+  padding-top: 3%;
+  object-fit: contain;
+  object-position: top;
+}
+
+h1 {
+  color: white;
+}
+p {
+  color: white;
+}

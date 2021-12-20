@@ -1,11 +1,21 @@
 /* Add your code in each class */
 .container {
+  height: 300px;
+  width: 400px;
+  overflow: scroll;
 }
 .head {
+  background-color: orange;
+  font-style: inherit;
+  color: blueviolet;
+  text-align: center;
+  position: sticky;
+  top: 0;
 }
 
 .row {
   /* .row is used in ./index.js not in the html filee */
+  background-color: palegoldenrod;
 }
 
 /* This is a gift - Does not need editing */
@@ -13,4 +23,6 @@
 .row:hover {
   text-decoration: line-through;
   cursor: pointer;
+  overflow: visible;
+  <h2>overflow: scroll</h2>;
 }
